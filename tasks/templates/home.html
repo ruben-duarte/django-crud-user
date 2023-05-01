@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block content %}
+
+<main class="container py-5" >
+
+    <section class="card card-body">
+        <h1 class="display-1 text-center">Tasks Tracking App</h1>
+    
+        <p class="sub-header">Welcome to the task app! 🎉 for your productivity enhacement   ⏰</p>
+
+        <img src="{% static 'tracker.jpeg' %}" alt="tracker image" width="250" class="intro-img">
+
+        <p>Being able to dedicate time to specific tasks, completing them and ending your workday with a quality output can be an overall measure of your productivity. Similarly, if you have no methods in place for organization, time management, tracking tasks or prioritizing, your efficiency and productivity can be affected. By making simple adjustments to your daily workflow one at a time, you can begin to see changes in your productivity.</p>
+        
+        <div class="text-center">
+            <a class="btn btn-primary" href="/signin/">
+                SignIn
+            </a>
+            <a class="btn btn-secondary" href="/signup/">
+                SignUp
+            </a>
+        </div>
+
+    </section>
+
+</main>
+
+
+{% endblock  %}
+

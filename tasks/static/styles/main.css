@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(45deg,#00596a , #002f39);
+    color: #00d0fc;
+}
+
+.card{
+    background: linear-gradient(45deg,#00596a , #002f39);
+    border: 2px solid #009ebb;
+
+}
+
+.intro-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px 10px;
+    border-radius: 20px;
+}
+
+.sub-header{
+    text-align: center;
+    color: white;
+    font-family:monospace ;
+    font-size: 18px;
+}
+
+.navbar-custom{
+    background-color:#009ebb;
+}
+
